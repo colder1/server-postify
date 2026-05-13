@@ -1,5 +1,5 @@
-_init_.py
 
 from app.models.user import User
+from app.models.post import Post
 
-_all_ = ["Users"]
+__all__=["User","Post"]
